@@ -6,6 +6,9 @@ AWS S3 Static Website using Terraform
 
 - [Description](#description)
 - [Installation](#installation)
+- [Create Resources](#createresources)
+- [Verify Site](#verifysite)
+- [Destroy Resources](#destroyresources)
 
 ## Description
 
@@ -25,6 +28,9 @@ cd S3StaticWebsiteUsingTerraform
 ```sh
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 ```
+
+## Create Resources
+
 ### Execute below steps to create Static Website in AWS S3 
 1. Initialize Terraform
     ```sh
@@ -43,9 +49,13 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
     terraform apply -auto-approve
     ```
 
+## Verify Site
+
 ### Verify the Static Website in S3
 After successful execution of the terraform, Static Website URL will be displayed in the console.
 Click on it to view the site
+
+## Destroy Resources
 
 ### Destroy the resources in AWS
 ```sh
