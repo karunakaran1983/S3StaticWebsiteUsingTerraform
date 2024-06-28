@@ -24,7 +24,7 @@ git clone https://github.com/karunakaran1983/S3StaticWebsiteUsingTerraform.git
 ```sh
 cd S3StaticWebsiteUsingTerraform
 ```
-### Install Terraform (skip if you have already it installed)
+### Install Terraform (skip if you have already installed it)
 ```sh
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 ```
