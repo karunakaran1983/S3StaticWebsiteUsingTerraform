@@ -28,7 +28,7 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 ### Execute below steps to create Static Website in AWS S3 
 1. Initialize Terraform
     ```sh
-    terraform init -> Terraform has been successfully initialized!
+    terraform init
     ```
 2. Validate Terraform
     ```sh
@@ -49,5 +49,5 @@ Click on it to view the site
 
 ### Destroy the resources in AWS
 ```sh
-terraform destroy -auto-approve -> Created resources in AWS will be successfully destroyed
+terraform destroy -auto-approve
 ```
