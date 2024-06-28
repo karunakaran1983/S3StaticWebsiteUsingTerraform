@@ -6,11 +6,6 @@ AWS S3 Static Website using Terraform
 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact Information](#contact-information)
-- [Acknowledgements](#acknowledgements)
 
 ## Description
 
