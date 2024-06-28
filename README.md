@@ -6,9 +6,9 @@ AWS S3 Static Website using Terraform
 
 - [Description](#description)
 - [Installation](#installation)
-- [Create Resources](#create resources)
-- [Verify Site](#verify site)
-- [Destroy Resources](#destroy resources)
+- [Create Resources](#create-resources)
+- [Verify Site](#verify-site)
+- [Destroy Resources](#destroy-resources)
 
 ## Description
 
