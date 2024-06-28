@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karun's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 2em 0;
+        }
+        .section h2 {
+            text-align: center;
+            color: #333;
+        }
+        .introduction {
+            text-align: center;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .projects, .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project, .review {
+            background: white;
+            margin: 1em;
+            padding: 1em;
+            width: calc(33% - 2em);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project img, .review img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Karun's Portfolio</h1>
+    </header>
+    <div class="container">
+        <section class="section introduction">
+            <h2>About Me</h2>
+            <img src="https://karuns3bucket280624.s3.eu-west-2.amazonaws.com/Karun.jpg" alt="Karun's Profile Picture" class="profile-pic">
+            <p>Welcome to my portfolio! My name is Karun, and I am a passionate developer with experience in building various projects. Here you can find some of my best works and reviews from those I've worked with.</p>
+        </section>
+        
+        <section class="section projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="project1.jpg" alt="Project 1">
+                <p>Description of Project 1. This project involves...</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="project2.jpg" alt="Project 2">
+                <p>Description of Project 2. This project involves...</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <img src="project3.jpg" alt="Project 3">
+                <p>Description of Project 3. This project involves...</p>
+            </div>
+        </section>
+
+        <section class="section reviews">
+            <h2>Reviews</h2>
+            <div class="review">
+                <h3>Reviewer 1</h3>
+                <p>"Karun is an exceptional developer who consistently delivers high-quality work. Working with him has been a pleasure."</p>
+            </div>
+            <div class="review">
+                <h3>Reviewer 2</h3>
+                <p>"Karun's attention to detail and dedication to his projects are truly commendable. He goes above and beyond to meet deadlines."</p>
+            </div>
+            <div class="review">
+                <h3>Reviewer 3</h3>
+                <p>"Karun's innovative solutions and problem-solving skills make him a valuable asset to any team. Highly recommended!"</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Karun. All rights reserved.</p>
+    </footer>
+</body>
+</html>
